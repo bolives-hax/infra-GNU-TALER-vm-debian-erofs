@@ -1,0 +1,39 @@
+{
+  "nodes": {
+    "image-debian-rootfs-tarball": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-u/zzdVp9au4fvK4+RT4091z3k8ysWQS+ueZ7TdcNOPY=",
+        "type": "file",
+        "url": "https://jenkins.linuxcontainers.org/job/image-debian/lastStableBuild/architecture=amd64,release=bookworm,variant=cloud/artifact/rootfs.tar.xz"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://jenkins.linuxcontainers.org/job/image-debian/lastStableBuild/architecture=amd64,release=bookworm,variant=cloud/artifact/rootfs.tar.xz"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1714086663,
+        "narHash": "sha256-rzZI4Hp+gYRtJTEc3P094eHtRKZ1EOKqbGjeca+7CaE=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "53ddbd41e961df28481dde5b15f1489f0fc1a584",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "image-debian-rootfs-tarball": "image-debian-rootfs-tarball",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

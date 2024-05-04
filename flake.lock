@@ -3,7 +3,7 @@
     "image-debian-rootfs-tarball": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-u/zzdVp9au4fvK4+RT4091z3k8ysWQS+ueZ7TdcNOPY=",
+        "narHash": "sha256-cAplA6Vsc3Y7CNxtppd1O1adLMU8EaUxEfH5c1lmxv0=",
         "type": "file",
         "url": "https://jenkins.linuxcontainers.org/job/image-debian/lastStableBuild/architecture=amd64,release=bookworm,variant=cloud/artifact/rootfs.tar.xz"
       },
